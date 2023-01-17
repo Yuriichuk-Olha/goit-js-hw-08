@@ -1,7 +1,7 @@
 // Add imports above this line
 import { galleryItems } from './gallery-items';
 // Change code below this line
-import SimpleLightbox from "Simplelightbox";
+import SimpleLightbox from "simplelightbox";
 
 import "simplelightbox/dist/simple-lightbox.min.css";
 
@@ -14,7 +14,7 @@ const galleryItemsLink = galleryItems.map(item =>
         alt="${item.description}"
         />
     </a>`).join(" ");
-
+//console.log(galleryItemsLink);
 
     galleryItemsRef.insertAdjacentHTML("afterbegin", galleryItemsLink);
 
