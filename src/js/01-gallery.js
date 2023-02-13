@@ -14,7 +14,7 @@ const galleryItemsLink = galleryItems.map(item =>
         alt="${item.description}"
         />
     </a>`).join(" ");
-//console.log(galleryItemsLink);
+
 
     galleryItemsRef.insertAdjacentHTML("afterbegin", galleryItemsLink);
 
